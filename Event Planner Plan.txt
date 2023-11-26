@@ -1,0 +1,29 @@
+Event Planner
+-----------------------
+enums:
+status ["PLANNED","ONGOING","FINISHED","CANCELLED"]
+
+collections:
+
+1. Users
+
+this is my firebase collection called "Users":
+
+id (number) // user id
+name (string) // user name
+password (string) //pass
+phone (number)
+created (array of numbers) //array of events user created
+attended (array of maps) //array of events user attended
+where each map: {
+  eid (number)  //event id
+  rated (number) //rating they gave
+}
+
+--------
+
+create a component Login, where users can login to the app
+
+
+2. Events
+
